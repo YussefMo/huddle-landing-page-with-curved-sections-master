@@ -1,0 +1,672 @@
+/* main conf */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    font-size: 16px;
+    color: black;
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+    --fw400: 400;
+    --fw600: 600;
+    --fw700: 700;
+}
+img:hover
+{
+    transform: scale(1.02);
+}
+/* asgin font family */
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+/* nav */
+nav
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+nav div
+{
+    margin-left: 3%;
+}
+nav div img
+{
+    width: 180px;
+    height: 30px;
+    transition: 500ms;
+}
+nav button
+{
+    font-size: 1.3rem;
+    background-color: white;
+    margin-right: 3%;
+    color: var(--Pink);
+    border: solid 1px;
+    border-radius: 50px;
+    width: 8%;
+    height: 40px;
+    box-shadow: 0px 0px 6px 0px var(--Light-Pink);
+    transition: 500ms;
+}
+nav button:hover
+{
+    color: var(--Light-Pink);
+}
+/* container1 style */
+.container1
+{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+.container1 h1
+{
+    font-size: 2.8rem;
+    font-weight: var(--fw700);
+    width: 100%;
+}
+.container1 p
+{
+    margin-top: 1%;
+    width: 28%;
+}
+.container1 div
+{
+    margin-top: 2%;
+    width: 100%;
+}
+.container1 div button
+{
+    font-size: 1.2rem;
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 17%;
+    height: 65px;
+    box-shadow: 0px 0px 6px 0px var(--Light-Pink);
+    transition: 500ms;
+}
+.container1 div button:hover
+{
+    background-color: var(--Light-Pink);
+}
+/* container2 style */
+.container2
+{
+    text-align: left;
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+}
+.container2 .imgcont
+{
+    width: 100%;
+}
+.container2 .imgcont img
+{
+    transition: 500ms;
+}
+.stats
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.stats img
+{
+    margin-left: -27%;
+    width: 35px;
+    transition: 500ms;
+}
+.stats h1
+{
+    font-size: 4rem;
+    font-weight: var(--fw700);
+}
+.stats p
+{
+    font-weight: var(--fw400);
+    color: gray;
+}
+/* container3 style */
+.container3
+{
+    margin-top: 2%;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background: 
+    url(./images/bg-section-top-desktop-1.svg) no-repeat top, 
+    linear-gradient(to bottom,rgba(0,0,0,0)25%, var(--Very-Pale-Blue) 25%, var(--Very-Pale-Blue) 80%,rgba(0,0,0,0) 80%, transparent 80%) no-repeat, 
+    url(./images/bg-section-bottom-desktop-1.svg) no-repeat bottom;
+    background-size: 100%,100%,100%;
+}
+.container3 div
+{
+    width: 30%;
+
+}
+.container3 div img
+{
+    width: 100%;
+    transition: 500ms;
+}
+/* container4 style */
+.container4
+{
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.container4 div
+{
+    width: 30%;
+
+}
+.container4 div img
+{
+    width: 100%;
+    transition: 500ms;
+}
+/* container5 style */
+.container5
+{
+    margin-top: 2%;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background: 
+    url(./images/bg-section-top-desktop-2.svg) no-repeat top, 
+    linear-gradient(to bottom,rgba(0,0,0,0)24%, var(--Very-Pale-Blue) 24%, var(--Very-Pale-Blue) 80%,rgba(0,0,0,0) 80%, transparent 80%) no-repeat, 
+    url(./images/bg-section-bottom-desktop-2.svg) no-repeat bottom;
+    background-size: 100%,100%,100%;
+}
+.container5 div
+{
+    width: 30%;
+
+}
+.container5 div img
+{
+    width: 100%;
+    transition: 500ms;
+}
+/* container6 style */
+.container6
+{
+    margin: 10% 0px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+.container6 div
+{
+    width: 100%;
+}
+.container6 div button
+{
+    margin-top: 2%;
+    font-size: 1.4rem;
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    height: 65px;
+    box-shadow: 0px 0px 6px 0px var(--Light-Pink);
+    transition: 500ms;
+}
+.container6 div button:hover
+{
+    background-color: var(--Light-Pink);
+}
+/* footer */
+footer
+{
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80vh;
+    background: 
+    url(./images/bg-footer-top-desktop.svg) no-repeat top, 
+    linear-gradient(to bottom,rgba(0,0,0,0)27%, var(--Very-Dark-Cyan) 27%, var(--Very-Dark-Cyan)100%, transparent 80%) no-repeat;
+    background-size: 100%,100%;
+}
+footer div
+{
+    margin-top: 10%;
+    width: 40%;
+}
+.right-section
+{
+    margin-left: 1%;
+}
+.logocont
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logocont h1
+{
+    font-size: 3rem;
+    font-weight: var(--fw700);
+}
+.logocont img
+{
+    transition: 500ms;
+}
+.text p:nth-child(1)
+{
+    margin-top: -20%;
+    font-size: 0.6rem;
+}
+.text p:nth-child(2)
+{
+    margin-top: 5%;
+}
+.fa-phone-volume
+{
+    margin-right: 2%;
+}
+.text p:nth-child(3)
+{
+    margin-top: 5%;
+}
+.text p:nth-child(3) img
+{
+    margin-right: 2%;
+}
+.left-section div
+{
+    width: 90%;
+}
+.left-section p:nth-child(1)
+{
+    font-size: 2rem;
+    font-weight: var(--fw600);
+    margin-bottom: 2%;
+}
+.left-section p:nth-child(2)
+{
+    font-size: 0.8rem;
+    width: 50%;
+}
+input[type="email"]
+{
+    margin-top: 2%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    width: 40%;
+    background-color: white;
+    transition: border-color 0.3s ease;
+}
+input[type="email"]:focus
+{
+    border-color: var(--Pink);
+}
+input[type="email"]:invalid
+{
+    border-color: var(--Light-Red);
+}
+form button
+{
+    height: 45px;
+    width: 20%;
+    margin-left: 5%;
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+form button:hover 
+{
+    background-color: var(--Light-Pink);
+}
+.error-message 
+{
+    color: var(--Light-Red);
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+input[type="email"]:invalid + button + .error-message 
+{
+    visibility: visible;
+}
+.social
+{
+    margin-top: -1%;
+    width: 100%;
+    margin-left: 6%;
+}
+.fa-brands
+{
+    font-size: 2.2rem;
+    margin: 0px 15px;
+    transition: 500ms;
+}
+.fa-brands:hover
+{
+    color: cyan;
+}
+/* responsive design */
+@media only screen and (max-width: 1440px) 
+{
+    nav button
+    {
+        width: 10%;
+    }
+    .container2
+    {
+        height: 100vh;
+    }
+    .container3
+    {
+        height: 68vh;
+    }
+    .container4
+    {
+        height: 60vh;
+    }
+    .container5
+    {
+        height: 66vh;
+    }
+    footer
+    {
+        height: 60vh;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    nav button
+    {
+        width: 15%;
+    }
+    .container1
+    {
+        height: 45vh;
+    }
+    .container1 h1
+    {
+        width: 70%;
+    }
+    .container1 p
+    {
+        width: 70%;
+    }
+    .container1 div button
+    {
+        width: 30%;
+    }
+    .container2 .imgcont img
+    {
+        width: 90%;
+    }
+    .container3
+    {
+        height: 55vh;
+    }
+    .container4
+    {
+        height: 35vh;
+    }
+    .container5
+    {
+        height: 55vh;
+    }
+    .container6
+    {
+        height: 25vh;
+    }
+    .container6 div button
+    {
+        width: 35%;
+    }
+    footer
+    {
+        height: 80vh;
+        background: 
+        url(./images/bg-footer-top-desktop.svg) no-repeat top, 
+        linear-gradient(to bottom,rgba(0,0,0,0) 25%, var(--Very-Dark-Cyan) 25%, var(--Very-Dark-Cyan)100%, transparent 80%) no-repeat;
+    }
+    footer div
+    {
+        width: 45%;
+    }
+    input[type="email"]
+    {
+        width: 60%;
+    }
+    .social
+    {
+        margin-left: 3%;
+    }
+} 
+@media only screen and (max-width: 768px)
+{
+    nav button
+    {
+        width: 20%;
+    }
+    .container1 div button
+    {
+        width: 50%;
+    }
+    .container3
+    {
+        text-align: center;
+        height: 120vh;
+        background: 
+        url(./images/bg-section-top-mobile-1.svg) no-repeat top, 
+        linear-gradient(to bottom,rgba(0,0,0,0)19%, var(--Very-Pale-Blue) 19%, var(--Very-Pale-Blue) 93%,rgba(0,0,0,0) 93%, transparent 80%) no-repeat, 
+        url(./images/bg-section-bottom-mobile-1.svg) no-repeat bottom;
+        background-size: 100%,100%,100%;
+    }
+    .container3 div
+    {
+        width: 90%;
+    }
+    .container3 div img
+    {
+        margin-top: -50%;
+    }
+    .container4
+    {
+        text-align: center;
+        height: 120vh;
+    }
+    .container4 div
+    {
+        width: 90%;
+    }
+    .container4 div img
+    {
+        margin-bottom: -50%;
+    }
+    .container5
+    {
+        text-align: center;
+        height: 120vh;
+        background: 
+        url(./images/bg-section-top-mobile-2.svg) no-repeat top, 
+        linear-gradient(to bottom,rgba(0,0,0,0)18%, var(--Very-Pale-Blue) 18%, var(--Very-Pale-Blue) 83%,rgba(0,0,0,0) 83%, transparent 80%) no-repeat, 
+        url(./images/bg-section-bottom-mobile-2.svg) no-repeat bottom;
+        background-size: 100%,100%,100%;
+    }
+    .container5 div
+    {
+        width: 90%;
+    }
+    .container5 div img
+    {
+        margin-top: -50%;
+    }
+    .container6 div button
+    {
+        width: 50%;
+    }
+    footer
+    {
+        height: 110vh;
+        background: 
+        url(./images/bg-footer-top-mobile.svg) no-repeat top, 
+        linear-gradient(to bottom,rgba(0,0,0,0) 10%, var(--Very-Dark-Cyan) 10%, var(--Very-Dark-Cyan)100%, transparent 80%) no-repeat;
+        background-size: 100%,100%,100%;
+    }
+    .left-section
+    {
+        order: -1;
+    }
+    footer div
+    {
+        width: 90%;
+    }
+    .text p:nth-child(1)
+    {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    nav button
+    {
+        width: 35%;
+    }
+    .container1
+    {
+        height: 42vh;
+    }
+    .container1 h1
+    {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+    .container1 p
+    {
+        width: 90%;
+    }
+    .container1 div button
+    {
+        margin-top: 2%;
+        width: 60%;
+    }
+    .stats
+    {
+        width: 90%;
+    }
+    .container3
+    {
+        height: 80vh;
+    }
+    .container3 h1
+    {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .container3 p
+    {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .container4
+    {
+        height: 80vh;
+    }
+    .container4 h1
+    {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .container4 p
+    {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .container5
+    {
+        height: 69vh;
+    }
+    .container5 h1
+    {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .container5 p
+    {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .container6 div button
+    {
+        width: 80%;
+    }
+    .container6 h1
+    {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    footer
+    {
+        height: 100vh ;
+        background: 
+        url(./images/bg-footer-top-mobile.svg) no-repeat top, 
+        linear-gradient(to bottom,rgba(0,0,0,0) 5%, var(--Very-Dark-Cyan) 5%, var(--Very-Dark-Cyan)100%, transparent 80%) no-repeat;
+        background-size: 100%,100%,100%;
+    }
+    input[type="email"]
+    {
+        width: 100%;
+    }
+    form button
+    {
+        margin-left: 60%;
+        margin-top: 3%;
+        width: 40%;
+    }
+}
